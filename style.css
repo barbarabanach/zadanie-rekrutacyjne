@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-attachment:fixed
+}
+
+u {
+    color: #aeaeae;
+}
+
+small {
+    font-size: 67%;
+}
+.main-container .card-actions {
+    border-radius: 0;
+    width: 20rem;
+}
+
+.inner-container {
+    padding: 2rem;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.action-container > * {
+
+}
+
+.box-actions {
+    background: #fff;
+    padding: 10px;
+}
+
+.circle-avatar {
+    height: 30px;
+    width: 30px;
+}
+
+.circle-avatar::after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    display: block;
+    border-radius: 50%;
+    background: #fd0000;
+    position: absolute;
+    left: 70px;
+    top: 33px;
+}
+
+.button-actions {
+    border-radius: 18px;
+    border-color: transparent;
+    padding: .375rem 1rem;
+}
+
+.btn-first {
+    background: #7663d8;
+}
+
+.btn-first:hover {
+    background: #fff;
+    color: #7663d8;
+}
+
+.btn-second {
+    background: #00a7d9;
+}
+
+.btn-second:hover {
+    background: #fff;
+    color: #00a7d9;
+}
+
+.btn-third {
+    background: #00d9da;
+}
+
+.btn-third:hover {
+    background: #fff;
+    color: #00d9da;
+}
+
+/* NAV */
+
+.dropdown {
+    display: inline;
+    top: 2rem;
+    position: relative;
+}
+
+.dropdown li {
+    background: #fff;
+    display: inline;
+    padding: 0.5rem 0.99rem;
+}
+
+.dropdown li a {
+    background: #fff;
+    opacity: 0.5;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+}
+
+.menu-content {
+    border: 0;
+    border-radius: 0;
+    height: 100vh;
+    min-width: 3rem;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.menu-content a {
+    padding: .5rem 0.3rem;
+}
+
+.menu-content a:hover {
+    opacity: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-nav {
+    position: absolute;
+    padding-left: 0;
+    padding-top: 40px;
+}
+
+.menu-ul {
+    background-color: #fff;
+    border-radius: 8px;
+    height: 100vh;
+    position: relative;
+}
+
+.menu-ul li {
+    text-align: center;
+}
+
+.menu-ul li a {
+    color: #7b7b7b;
+    opacity: 0.5;
+    padding: 0.6rem 0.3rem;
+}
+
+.menu-ul li a i:first-child {
+    color: #929292;
+}
+
+.menu-ul li a i:nth-child(2) {
+    color: #929292;
+}
+
+figcaption {
+    font-size: 0.6rem;
+}
+
+.card-body h5 {
+    font-weight: normal;
+    position: absolute;
+    left: 30%;
+}
+
+.boxes {
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+
+.heading-videochat {
+    color: #7663d8;
+}
+
+.heading-chat {
+    color: #7663d8;
+}
+
+.heading-cobrowsing {
+    color: #7663d8;
+}
+
+.bottom-menu {
+    bottom: 0;
+    position: absolute;
+    left: 15px;
+}
+.circle {
+    background: #E6E7ED;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  
+    text-align:center;
+}
+
+.circle-action {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;  
+    text-align:center;
+}
+
+.circle-action img {
+    height: 1rem;
+    width: 1rem;
+    margin-top: 4px;
+}
+
+.avatar {
+    height: 35px;
+    width: 35px;
+}
+
+.avatar-occupation {
+    line-height: 1.1;
+}
+
+.circle img {
+    height: 1.5rem;
+    margin-top: 11px;
+    width: 1.5rem;
+}
+
+.videochat {
+    background: #7663d8;
+}
+
+.chat {
+    background: #5b99cf;
+}
+
+.cobrowsing {
+    background: #00bdbf;
+}
+
+.font {
+    font-size: 3rem;
+}
+
+.card-number {
+    font-size: 2.4rem;
+    width: 20%;
+    text-align: right;
+}
+
+.card-content {
+    font-weight: lighter;
+    color: #b1b1b1;
+    margin: 0.8rem;
+}
+
+.card-number, .card-content {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; 
+  width: 29%;
+}
+
+.action-container > span {
+    font-size: 1rem;
+}
+
+.product-title {
+    font-size: 0.8rem;
+    color: #fff;
+    background: #bbbbbb;
+    display: inline;
+    width: 9rem;
+    height: 1.5rem;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+.p0 {
+    padding-top: 0;
+}
