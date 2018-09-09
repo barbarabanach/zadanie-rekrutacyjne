@@ -1,0 +1,61 @@
+.history-box {
+    background-color: #fff;
+}
+
+.circle-avatar::after {
+    content: '';
+    display: block;
+    height: 10px;
+    left: 24px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fd0000;
+    position: absolute;
+    top: 29px;
+}
+
+.agent-avatar img {
+    height: 35px;
+    width: 35px;
+}
+
+.action-title {
+    font-size: 0.8rem;
+    color: #fff;
+    background: #bbbbbb;
+    height: 1.5rem;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+.history-box-heading h2 {
+    display: inline-block;
+}
+
+.action-box-titles,
+.action-box {
+    display: flex;
+    padding: 0 10px;
+}
+
+.action-icon-title, .action-icon,
+.action-agent-title, .action-agent,
+.action-title-title, .action-title,
+.action-details-title, .action-details {
+   display: inline-block;
+}
+
+.action-icon-title,.action-icon {
+    width: 20%;
+}
+.action-agent-title, .action-agent {
+    width: 40%;
+}
+.action-title-title, .action-title {
+    width: 20%;
+}
+.action-details-title, .action-details {
+    width: 20%;
+}
