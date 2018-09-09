@@ -27,66 +27,72 @@
     }
 
     &.videochat {
+        $mainColor: #7663d8;
+
         &::before {
-            background-color: #7663d8;
+            background-color: $mainColor;
             background-image: url(../../assets/videochat.svg);
         }
         
         .button-actions {
-            background-color: #7663d8;
-            border-color: #7663d8;
+            background-color: $mainColor;
+            border-color: $mainColor;
 
             &:hover {
                 background-color: #fff;
-                color: #7663d8;
+                color: $mainColor;
             }
         }
 
         .title {
-            color: #7663d8;;
+            color: $mainColor;
         }
     }
 
     &.chat {
+        $mainColor: #00a7d9;
+
         &::before {
-            background-color: #00a7d9;
+            background-color: $mainColor;
             background-image: url(../../assets/chat.svg);
         }
         
         .button-actions {
-            background-color: #00a7d9;
-            border-color: #00a7d9;
+            background-color: $mainColor;
+            border-color: $mainColor;
 
             &:hover {
                 background-color: #fff;
-                color: #00a7d9;
+                color: $mainColor;
             }
             
         }
 
         .title {
-            color: #00a7d9;;
+            color: $mainColor;
         }
     }
 
     &.cobrowsing {
+        $mainColor: #00d9da;
+
         &::before {
-            background-color: #00d9da;
+            background-color: $mainColor;
             background-image: url(../../assets/cobrowsing.svg);
         }
         
         .button-actions {
-            background-color: #00d9da;
-            border-color: #00d9da;
+            background-color: $mainColor;
+            border-color: $mainColor;
 
             &:hover {
                 background-color: #fff;
-                color: #00d9da;
+                color: $mainColor;
             }
         }
 
         .title {
-            color: #00d9da;;
+            color: $mainColor;
         }
     }
 
