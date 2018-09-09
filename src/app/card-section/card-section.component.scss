@@ -1,0 +1,137 @@
+
+.card-section {
+    background: #fff;
+    padding-left: 90px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    position: relative;
+
+    &::before {
+        border-radius: 50%;
+        content: '';
+        display: block;
+        position: absolute;
+
+        background-color: #7663d8;
+        background-image: url(../../assets/videochat.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 40px 40px;
+
+        width: 65px;
+        height: 65px;
+
+        left: 10px;
+        top: 10px;
+    }
+
+    &.videochat {
+        &::before {
+            background-color: #7663d8;
+            background-image: url(../../assets/videochat.svg);
+        }
+        
+        .button-actions {
+            background-color: #7663d8;
+            border-color: #7663d8;
+
+            &:hover {
+                background-color: #fff;
+                color: #7663d8;
+            }
+        }
+
+        .title {
+            color: #7663d8;;
+        }
+    }
+
+    &.chat {
+        &::before {
+            background-color: #00a7d9;
+            background-image: url(../../assets/chat.svg);
+        }
+        
+        .button-actions {
+            background-color: #00a7d9;
+            border-color: #00a7d9;
+
+            &:hover {
+                background-color: #fff;
+                color: #00a7d9;
+            }
+            
+        }
+
+        .title {
+            color: #00a7d9;;
+        }
+    }
+
+    &.cobrowsing {
+        &::before {
+            background-color: #00d9da;
+            background-image: url(../../assets/cobrowsing.svg);
+        }
+        
+        .button-actions {
+            background-color: #00d9da;
+            border-color: #00d9da;
+
+            &:hover {
+                background-color: #fff;
+                color: #00d9da;
+            }
+        }
+
+        .title {
+            color: #00d9da;;
+        }
+    }
+
+}
+
+.title {
+    font-size: 1.5rem;
+    padding: 0.85rem 0 0.5rem;
+}
+
+.button-actions {
+    border-radius: 18px;
+    border-color: #7663d8;
+    padding: .375rem 1rem;
+
+    &:hover {
+        background-color: #fff;
+    }
+}
+
+.card-number {
+    font-size: 2.4rem;
+}
+
+.card-content {
+    font-weight: lighter;
+    color: #b1b1b1;
+    margin: 0.8rem;
+    width: 30%;
+}
+
+.card-number, .card-content {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal; 
+}
+
+.circle {
+    background: #7663d8;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 15px;
+
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}
