@@ -7,6 +7,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HistoryComponent implements OnInit {
 
+  history = [
+    {
+      type: 'videochat',
+      agentName: 'Jan Kowalski',
+      agentRole: 'starszy konsultant',
+      actionTitle: 'Kredyt konsolidacyjny'
+    },
+    {
+      type: 'chat',
+      agentName: 'Robert Wypis',
+      agentRole: 'starszy konsultant',
+      actionTitle: 'Lokaty bankowe'
+    },
+    {
+      type: 'cobrowsing',
+      agentName: 'Jan Kowalski',
+      agentRole: 'starszy konsultant',
+      actionTitle: 'Kredyty hipoteczne'
+    }
+
+  ];
+  
+  
   constructor() { }
 
   ngOnInit() {

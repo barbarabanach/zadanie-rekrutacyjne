@@ -7,6 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardSectionComponent implements OnInit {
 
+  hero = 40;
+
   @Input()
   customTypo: string;
 

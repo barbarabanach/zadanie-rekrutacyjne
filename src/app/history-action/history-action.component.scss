@@ -1,0 +1,118 @@
+
+.circle-avatar::after {
+    content: '';
+    display: block;
+    height: 10px;
+    left: 24px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fd0000;
+    position: absolute;
+    top: 29px;
+}
+
+.agent-avatar img {
+    height: 35px;
+    width: 35px;
+}
+
+.action-title {
+    background: #bbbbbb;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    padding: 3px 3px 4px;
+    text-align: center;
+}
+
+.history-box-heading {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 8 px;
+}
+
+.action-box {
+    align-items: center;
+
+    .action-icon::before {
+        content: '';
+        display: block;
+
+        width: 35px;
+        height: 35px;
+
+        background-color: red;
+        border-radius: 50%;
+    }
+
+    &.videochat .action-icon::before {
+        background-color: #7663d8;
+        background-image: url(../../assets/videochat.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 20px 20px;
+
+        height: 35px;
+        width: 35px;
+    }
+
+    &.chat .action-icon::before {
+        background-color: #00a7d9;
+        background-image: url(../../assets/chat.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 20px 20px;
+
+        height: 35px;
+        width: 35px;
+    }
+
+    &.cobrowsing .action-icon::before {
+        background-color: #00d9da;
+        background-image: url(../../assets/cobrowsing.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 20px 20px;
+
+        height: 35px;
+        width: 35px;
+    }
+}
+
+.action-box {
+    display: flex;
+    padding: 6px 10px;
+    justify-content: space-between;
+}
+
+.action-agent {
+    display: flex;
+    align-items: center;
+
+    .agent-role {
+        font-size: 0.65rem;
+        white-space: nowrap;
+    }
+}
+
+.action-details {
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+
+.action-icon {
+    width: 10%;
+}
+.action-agent {
+    width: 28%;
+}
+.action-title {
+    width: 26%;
+}
+.action-details {
+    width: 25%;
+}
+
