@@ -1,40 +1,42 @@
 <app-sidemenu></app-sidemenu>
 
-<div class="container">
+<div id="main-app-container">
+    <div class="container-fluid">
 
-    <!-- CONTACT BOXES -->
+        <!-- CONTACT BOXES -->
 
-    <div class="row">
+        <div class="row main-row">
 
-        <div class="col-sm-4 outer-container">
-            <div class="inner-container">
-                <app-card-section customTypo="videochat" longName="Porozmawiaj VIDEO"></app-card-section>
+            <div class="col-sm-4 outer-container">
+                <div class="inner-container">
+                    <app-card-section customTypo="videochat" longName="Porozmawiaj VIDEO"></app-card-section>
+                </div>
             </div>
-        </div>
 
-        <div class="col-sm-4 outer-container">
-            <div class="inner-container">
-                <app-card-section customTypo="chat" longName="Napisz na CZACIE"></app-card-section>
+            <div class="col-sm-4 outer-container">
+                <div class="inner-container">
+                    <app-card-section customTypo="chat" longName="Napisz na CZACIE"></app-card-section>
+                </div>
             </div>
-        </div>
 
-        <div class="col-sm-4 outer-container">
-            <div class="inner-container">
-                <app-card-section customTypo="cobrowsing" longName="Włącz COBROWSING"></app-card-section>
+            <div class="col-sm-4 outer-container">
+                <div class="inner-container">
+                    <app-card-section customTypo="cobrowsing" longName="Włącz COBROWSING"></app-card-section>
+                </div>
             </div>
+
         </div>
 
-    </div>
+        <!-- MAIN -->
 
-    <!-- MAIN -->
-
-    <div class="row">
-        <div class="col-6">
-    <!-- HISTORIA SPRAW -->
-    <app-history></app-history>
-        </div>
-        <div class="col-6">
-    <!-- HISTORIA ROZMOWY -->
+        <div class="row main-row">
+            <div class="col-6">
+                <!-- HISTORIA SPRAW -->
+                <app-history></app-history>
+            </div>
+            <div class="col-6">
+                <!-- HISTORIA ROZMOWY -->
+            </div>
         </div>
     </div>
 </div>
