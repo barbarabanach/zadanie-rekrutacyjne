@@ -7,23 +7,14 @@
 
         <div class="row main-row">
 
-            <div class="col-sm-4 outer-container">
+            <div class="col-sm-4 outer-container"
+                *ngFor="let card of containers"
+            >
                 <div class="inner-container">
-                    <app-card-section customType="videochat" longName="Porozmawiaj VIDEO" cardNumber="30"></app-card-section>
+                    <app-card-section [customType]="card.customType" [longName]="card.longName" [cardNumber]="card.cardNumber"></app-card-section>
                 </div>
             </div>
 
-            <div class="col-sm-4 outer-container">
-                <div class="inner-container">
-                    <app-card-section customType="chat" longName="Napisz na CZACIE" cardNumber="12"></app-card-section>
-                </div>
-            </div>
-
-            <div class="col-sm-4 outer-container">
-                <div class="inner-container">
-                    <app-card-section customType="cobrowsing" longName="Włącz COBROWSING" cardNumber="20"></app-card-section>
-                </div>
-            </div>
 
         </div>
 
