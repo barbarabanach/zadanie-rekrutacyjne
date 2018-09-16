@@ -7,10 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CardSectionComponent implements OnInit {
 
-  @Input() cardNumber = 12;
+  @Input()
+  cardNumber: number;
 
   @Input()
-  customTypo: string;
+  customType: string;
 
   @Input()
   longName: string;
